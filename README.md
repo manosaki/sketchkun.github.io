@@ -1,4 +1,4 @@
-# sketchkun-v2.0
+# 速寫君 sketchkun-v2.0
 
 <img src="readme img/22.PNG" width="900px"/>
 
@@ -12,3 +12,6 @@
 
 ■ 感謝 鄭豪 大哥幫忙 及 Ben Huang（黃柏倫）大力協助
 
+## 教學
+
+近期補上....
