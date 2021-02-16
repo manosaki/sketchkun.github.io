@@ -1,6 +1,6 @@
 # sketchkun-v2.0
 
-
+<img src="readme img/22.PNG" width="900px"/>
 
 基於  Isola et al. [pix2pix](https://phillipi.github.io/pix2pix/) 論文製作 
 
