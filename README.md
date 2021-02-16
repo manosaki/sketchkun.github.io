@@ -10,7 +10,7 @@
 
 ■ 介面使用ml5及P5js進行製作，參考範例請參閱: https://github.com/yining1023/pix2pix_tensorflowjs_lite
 
-■ 感謝 鄭豪 大哥幫忙 及 Ben Huang（黃柏倫）大力協助
+■ 感謝 [鄭豪](https://www.zhihu.com/people/HowardZhengDS) 大哥幫忙 及 Ben Huang（黃柏倫）大力協助
 
 ## 教學
 
