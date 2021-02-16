@@ -1,0 +1,112 @@
+body {
+  font-family: monospace;
+  background: #FFD524;
+}
+
+.border-box {
+  background: white;
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.line-height {
+  line-height: 2.5;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+#toolContainer {
+  width: 10px;
+}
+
+
+#canvasContainer {
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 512px;
+  height: 512px;
+
+}
+
+.pencil {
+  cursor: url("images/pencil.png") 0 30, auto;
+}
+
+.eraser {
+  cursor: url("images/eraser.png") 15 15, auto;
+}
+
+.rect {
+  cursor: url("images/rect.png") 15 15, auto;
+}
+
+.shape {
+  cursor: url("images/shape.png") 15 15, auto;
+}
+
+.title {
+  cursor: url("images/title.png") 15 15, auto;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  background: #003C9D;
+  width:160px;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+button:hover { 
+  background-color: #FC9A24;
+}
+
+#textContainer {
+  margin: 20px;
+  background-color: #ffffff;
+  border: 5px solid;
+}
+
+#transferContainer {
+  margin-left: 60px;
+  margin-top: 356px;
+  height: 356px;
+}
+
+
+
+#output {
+  margin-top: 120px;
+  height: 512px;
+}
+
+#btnContainer {
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 256px;
+
+}
+
+#toolContainer {
+  width: 100px;
+  height: 512px;
+  margin-left: 20px;
+}
+
+

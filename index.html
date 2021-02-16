@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Sketcher ver2.0</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.dom.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+  <style>.size1 {font-size:15px;}</style>
+</head>
+
+<body>
+  <div id="textContainer">
+      <h1><img src="images/title.png"/></h1>
+      <h2>Sketcher  ver 2.0.0</h2>
+      <p class='size1'>1. 先選材料，再選畫筆</p>
+      <p class='size1'>2. 繪製完成請按轉換</p>
+      <p class='size1'>3. 然後等待你的圖像出現~</p>
+      <p class='size1'>4. 按清除以重新繪製</p>
+  </div>
+
+  <div class="flex flex-start" >
+      <div id="toolContainer">
+      <h2>畫筆</h2>
+      <button class="flex-space-between" onClick="usePencil()"><label>Pencil </label><img src="images/pencil.png"/></button>
+      <button class="flex-space-between" onClick="useRectangle()"><label>Rectangle </label><img src="images/rect.png"/></button>
+      <button class="flex-space-between" onClick="useShape()"><label>Shape </label><img src="images/shape.png"/></button>
+      <button class="flex-space-between" onClick="useEraser()"><label>Eraser </label><img src="images/eraser.png"/></button>
+      <h2>材料</h2>
+      <button class="flex line-height" onClick="meterial_1()"><label>painting</label></button>
+      <button class="flex line-height" onClick="meterial_2()"><label>brick</label></button>
+      <button class="flex line-height" onClick="meterial_3()"><label>stone</label></button>
+      <button class="flex line-height" onClick="meterial_4()"><label>grille</label></button>
+      <button class="flex line-height" onClick="meterial_5()"><label>metal_plate</label></button>
+      <button class="flex line-height" onClick="meterial_6()"><label>curtain_wall</label></button>
+      <button class="flex line-height" onClick="meterial_7()"><label>glass</label></button>
+      <button class="flex line-height" onClick="meterial_8()"><label>wood</label></button>
+      <button class="flex line-height" onClick="meterial_9()"><label>concrete</label></button>
+      <button class="flex line-height" onClick="meterial_10()"><label>tile</label></button>
+          <h2>筆寬</h2>
+          <p class='size1'>細-----太</p>
+    </div>
+      <div>
+       <div id="canvasContainer"></div>
+       <div id="btnContainer" class="flex flex-space-between">
+        <button id="clearBtn">清除</button><br/>
+      </div>
+     </div>
+    <div id="transferContainer" class="flex flex-column">
+        <button id="transferBtn" class="btn" onClick="transfer()">轉換 &xrarr;</button>
+        <p class='size1' id="status">模型下載中...</p>
+      </div>
+    <div id="output" ></div>
+  </div>
+
+  <script src="sketch.js"></script>
+</body>
+
+</html>
