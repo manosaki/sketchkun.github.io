@@ -1,4 +1,4 @@
-body {
+html, body {
   font-family: monospace;
   background: #FFD524;
 }
@@ -9,38 +9,99 @@ body {
   margin: 20px;
 }
 
-.flex {
-  display: flex;
-}
-
-.line-height {
-  line-height: 2.5;
-}
-
-.flex-start {
-  justify-content: flex-start;
+#textContainer {
+  margin: 20px;
+  background-color: #ffffff;
+  border: 5px solid;
 }
 
 
-.flex-space-between {
-  justify-content: space-between;
-}
-
-.flex-column {
-  flex-direction: column;
+#displayContainer {
+  width: 1820px;
+  height: 720px;
+  margin-left: 20px;
 }
 
 #toolContainer {
-  width: 10px;
+  width: 140px;
+  height: 720px;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+#workContainer {
+  height:680px;
+  width:1540px;
+  margin-left: 20px;
 }
 
+#styleContainer {
+  height:40px;
+  width:1540px;
+}
+#padContainer {
+  height: 512px;
+  width:1400px;
+}
+
+#btnContainer {
+  width: 256px;
+}
 
 #canvasContainer {
-  margin-left: 100px;
-  margin-top: 120px;
   width: 512px;
   height: 512px;
+}
 
+#transferContainer {
+  margin-left: 40px;
+  margin-top: 200px;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  height: 280px;
+}
+
+#output {
+  width: 512px;
+  height: 512px;
+}
+
+.flex {
+  display: flex;
+  het: 300px;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  background: #003C9D;
+  width:140px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+}
+input{
+  border:0;
+  color:#fff;
+  cursor:pointer;
+  background: #76b5b3;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+input:hover{
+  color:#fff;
+  background-color: #FC9A24;
 }
 
 .pencil {
@@ -63,50 +124,17 @@ body {
   cursor: url("images/title.png") 15 15, auto;
 }
 
-button {
-  cursor: pointer;
-  height: 40px;
-  background: #003C9D;
-  width:160px;
-  color: white;
-  font-family: monospace;
-  font-size: 16px;
-}
 
-button:hover { 
+button:hover {
   background-color: #FC9A24;
 }
 
-#textContainer {
-  margin: 20px;
-  background-color: #ffffff;
-  border: 5px solid;
-}
 
-#transferContainer {
-  margin-left: 60px;
-  margin-top: 356px;
-  height: 356px;
-}
-
-
-
-#output {
-  margin-top: 120px;
-  height: 512px;
-}
-
-#btnContainer {
-  margin-left: 100px;
-  margin-top: 100px;
-  width: 256px;
-
-}
-
-#toolContainer {
-  width: 100px;
-  height: 512px;
-  margin-left: 20px;
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #65889c;
+  color: #adacac;
 }
 
 
