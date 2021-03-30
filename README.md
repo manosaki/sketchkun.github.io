@@ -1,4 +1,4 @@
-# 速寫君 sketchkun-v2.0
+# 速寫君 sketchkun-archdrawer
 
 <img src="readme img/22.PNG" width="900px"/>
 
