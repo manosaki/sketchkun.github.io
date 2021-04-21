@@ -3,11 +3,6 @@ html, body {
   background: #FFD524;
 }
 
-.border-box {
-  background: white;
-  border-radius: 7px;
-  margin: 20px;
-}
 
 #textContainer {
   margin: 20px;
@@ -17,22 +12,23 @@ html, body {
 
 
 #displayContainer {
-  width: 1820px;
-  height: 720px;
-  margin-left: 20px;
+  width: 2388px;
+  height: 872px;
+  /*border: 2px solid;*/
 }
 
 #toolContainer {
   width: 140px;
-  height: 720px;
+  height: 880px;
   margin-left: 20px;
   align-items: center;
   text-align: center;
 }
 #workContainer {
-  height:680px;
-  width:1540px;
+  height:872px;
+  width:2188px;
   margin-left: 20px;
+  /*border: 2px solid;*/
 }
 
 #styleContainer {
@@ -40,31 +36,47 @@ html, body {
   width:1540px;
 }
 #padContainer {
-  height: 512px;
-  width:1400px;
+  height: 832px;
+  width:2188px;
+  /*border: 2px solid;*/
 }
 
 #btnContainer {
-  width: 256px;
+  width: 850px;
+  /*border: 2px solid;*/
 }
 
 #canvasContainer {
-  width: 512px;
-  height: 512px;
+  width: 1024px;
+  height: 832px;
+  background:
+        -webkit-linear-gradient(top, transparent 63px, blue 64px),
+        -webkit-linear-gradient(left, transparent 63px, blue 64px)
+        ;
+    background-size: 64px 64px;
+  border: 2px solid;
 }
+.flex-start
+{justify-content: flex-start}
 
 #transferContainer {
-  margin-left: 40px;
   margin-top: 200px;
   align-items: center;
   text-align: center;
-  width: 140px;
+  width: 100px;
   height: 280px;
+  /*border: 2px solid;*/
 }
 
 #output {
-  width: 512px;
-  height: 512px;
+  width: 1024px;
+  height: 832px;
+  background:
+        -webkit-linear-gradient(top, transparent 63px, blue 64px),
+        -webkit-linear-gradient(left, transparent 63px, blue 64px)
+        ;
+    background-size: 64px 64px;
+  border: 2px solid;
 }
 
 .flex {
@@ -136,5 +148,6 @@ button[disabled]{
   background-color: #65889c;
   color: #adacac;
 }
+
 
 
