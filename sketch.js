@@ -326,7 +326,7 @@ function draw() {
 
 function clearCanvas() {
   paths.splice(0);
-  background(255, 0, 255);
+  pg.background(255, 0, 255);
 }
 
 function size21() {
