@@ -333,6 +333,10 @@ function size21() {
   event="2:1";
 }
 
+function size21() {
+  event="2:1";
+}
+
 function useRectangle() {
   event="Rect";
 
